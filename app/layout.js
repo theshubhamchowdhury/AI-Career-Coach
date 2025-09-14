@@ -22,6 +22,8 @@ export default function RootLayout({ children }) {
     >
       <html lang="en" suppressHydrationWarning>
         <head>
+          {/* ✅ Razorpay Script */}
+          <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
           <link rel="icon" href="/logo.png" sizes="any" />
         </head>
         <body className={`${inter.className}`}>
